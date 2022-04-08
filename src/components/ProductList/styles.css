@@ -1,0 +1,19 @@
+.product-list {
+  display: flex;
+
+  overflow-y: hidden;
+}
+
+@media screen and (min-width: 1150px) {
+  .product-list {
+    margin-left: 20px;
+    padding-left: 40px;
+    justify-content: center;
+    justify-items: center;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 310px);
+
+    width: 60vw;
+  }
+}
